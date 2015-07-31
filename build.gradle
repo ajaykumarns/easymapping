@@ -1,0 +1,9 @@
+apply plugin: 'scala'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.squareup:javapoet:1.2.0', 'org.scala-lang:scala-library:2.11.7', 'com.google.code.gson:gson:2.3.1'
+}
